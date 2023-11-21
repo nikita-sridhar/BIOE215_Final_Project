@@ -42,4 +42,4 @@ We will have 5 major folders and several subfolders:
 
 ## Analysis Outline
 
-![Fig. 2. Outline of our analytical approach, including scripts and files to produce.](reports/images/analysis_outline.png){alt="Fig. 2. Outline of our analytical approach, including scripts and files to produce."}
+![Fig. 2. Outline of our analytical approach, including scripts and files to produce.](images/analysis_outline.png)
