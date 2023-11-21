@@ -8,9 +8,9 @@ editor: visual
 
 *Team Mo' Betta:*
 
-------------------------------------------------------------------------
+*In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.*
 
-In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.
+------------------------------------------------------------------------
 
 ## **Description of Data and Availability**
 

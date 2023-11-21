@@ -28,6 +28,8 @@ We chose to replicate [Spatz et a., (2023), "Tracking the global application of 
 
 ## Step 3: Identify and Describe Data  
 
-The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is described here.
+The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is described [here](data_description.html).
 
-![Fig. 2. Outline of our analytical approach, including scripts and files to produce.](images/analysis_outline.png)
+## Step 4: Create a Written Plan for Computational Analysis
+
+Our written plan for computational analysis is available [here](computational_analysis_plan.html).
