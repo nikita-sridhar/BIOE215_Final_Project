@@ -6,7 +6,7 @@ editor: visual
 
 # Team Mo' Betta Final Project
 
-*Team Members: [Aspen Ellis](https://github.com/boriellis), Elsie Carillo, Frankie Gerraty, Maya McElfish, [Niki Sridhar](https://github.com/nikita-sridhar)*
+*Team Members: [Aspen Ellis](https://github.com/boriellis), Elsie Carillo, [Frankie Gerraty](https://github.com/fgerraty), Maya McElfish, [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 ------------------------------------------------------------------------
 
