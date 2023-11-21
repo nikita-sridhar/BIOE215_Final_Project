@@ -74,6 +74,12 @@ visitation_both <- visitation_both %>%
 all_data_clean <- rbind(visitation_SA, visitation_trans, visitation_both) %>%
   mutate(yrs_since_start = Visitation_Yr1_SinceOperation - AllStartYr)
 
-#plot
+#plot 
+#all data
+ggplot(all_data_clean, aes(x=yrs_since_start, y=Family, col=Family)) +
+  geom_boxplot(horizontal = TRUE) +
+  geom_jitter(alpha = 0.7, width = 0.9) +
+  ggtitle("Visiting outcome all data") +
+  theme_classic()
 
-
+             
