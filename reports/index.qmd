@@ -12,7 +12,7 @@ editor: visual
 
 ## Step 1: Identify a Mascot, Flag, and Theme Song
 
-The first step of any group project is identifying a team name, mascot and flag. Thus, Team Mo\' Betta was formed.
+The first step of any group project is identifying a team name, mascot and flag. Thus, Team Mo' Betta was formed.
 
 ![Fig. 1. This is our team flag.](images/flag.jpg)
 
@@ -26,7 +26,7 @@ We chose to replicate [Spatz et a., (2023), "Tracking the global application of 
 
 *Selection Methods: As a group, we first shared each other's tentative plots with our rationale for why we selected them. We were initially split between how complete and complex the data was and how helpful it was to the user's own research. In the end, it was decided that we would try to select the plot that had sufficient data available but be challenging enough to gain new data organization and plot recreation skills in R.*
 
-## Step 3: Identify and Describe Data  
+## Step 3: Identify and Describe Data
 
 The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is described [here](data_description.html).
 
