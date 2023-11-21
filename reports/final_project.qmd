@@ -6,32 +6,28 @@ editor: visual
 
 # Team Mo' Betta Final Project
 
-*Team Members: Aspen Ellis, Elsie Carillo, Frankie Gerraty, Maya McElfish, Niki Sridhar*
+*Team Members: [Aspen Ellis](https://github.com/boriellis), Elsie Carillo, Frankie Gerraty, Maya McElfish, [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 ------------------------------------------------------------------------
 
-## Step 1: Identify a Mascot and Flag
+## Step 1: Identify a Mascot, Flag, and Theme Song
 
-The first step of any group project is identifying a mascot and creating a flag.
+The first step of any group project is identifying a team name, mascot and flag. Thus, Team Mo\' Betta was formed.
 
-![Fig. 1. This is our team flag.](reports/images/flag.jpg){alt="Fig. 1. This is our team flag."}
+![Fig. 1. This is our team flag.](images/flag.jpg)
 
-## Step 2: Create a Written Plan
+[This is our theme song](https://www.youtube.com/watch?v=GEut_r-B0_w).
 
-### Choose a study for replication
+## Step 2: Choose a study for replication
 
-We chose to replicate [Spatz et a., (2023), "Tracking the global application of conservation translocation and social attraction to reverse seabird declines"](https://www.pnas.org/doi/epdf/10.1073/pnas.2214574120). We plan to reproduce the following figure:
+We chose to replicate [Spatz et a., (2023), "Tracking the global application of conservation translocation and social attraction to reverse seabird declines"](https://www.pnas.org/doi/epdf/10.1073/pnas.2214574120). We plan to reproduce figure 4:
 
-![](reports/images/figure_to_replicate.jpg)
+![](images/figure_to_replicate.jpg)
 
-As a group, we first shared each other\'s tentative plots with our rationale for why we selected them. We were initially split between how complete and complex the data was and how helpful it was to the user\'s own research. In the end, it was decided that we would try to select the plot that had sufficient data available but be challenging enough to gain new data organization and plot recreation skills in R.
+*Selection Methods: As a group, we first shared each other's tentative plots with our rationale for why we selected them. We were initially split between how complete and complex the data was and how helpful it was to the user's own research. In the end, it was decided that we would try to select the plot that had sufficient data available but be challenging enough to gain new data organization and plot recreation skills in R.*
 
-### **Identify the necessary (meta)data source(s):**
+## Step 3: Identify and Describe Data  
 
-data: [csv file](https://zenodo.org/records/7764785)
+The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is described here.
 
-metadata: [descriptions of column names](https://www.seabirddatabase.org/uploads/9/3/3/2/93324882/srdglossary_fulldataset_aug2022.pdf)
-
-The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and an R file on how they performed the modeling and statistical analyses. They did not include code for data cleaning or creating any figures.
-
-![Fig. 2. Outline of our analytical approach, including scripts and files to produce.](reports/images/analysis_outline.png){alt="Fig. 2. Outline of our analytical approach, including scripts and files to produce."}
+![Fig. 2. Outline of our analytical approach, including scripts and files to produce.](images/analysis_outline.png)
