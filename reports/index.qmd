@@ -20,7 +20,7 @@ The first step of any group project is identifying a team name, mascot and flag.
 
 ## Step 2: Choose a study for replication
 
-We chose to replicate [Spatz et a., (2023), "Tracking the global application of conservation translocation and social attraction to reverse seabird declines"](https://www.pnas.org/doi/epdf/10.1073/pnas.2214574120). We plan to reproduce figure 4:
+We chose to replicate [Spatz et al., (2023), "Tracking the global application of conservation translocation and social attraction to reverse seabird declines"](https://www.pnas.org/doi/epdf/10.1073/pnas.2214574120). We plan to reproduce figure 4:
 
 ![](images/figure_to_replicate.jpg)
 
