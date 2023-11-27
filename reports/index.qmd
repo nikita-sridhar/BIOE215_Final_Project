@@ -1,10 +1,8 @@
 ---
-title: "final_project"
+title: "Team Mo' Betta Final Project"
 format: html
 editor: visual
 ---
-
-# Team Mo' Betta Final Project
 
 *Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
