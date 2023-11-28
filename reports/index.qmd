@@ -31,3 +31,7 @@ The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is d
 ## Step 4: Create a Written Plan for Computational Analysis
 
 Our written plan for computational analysis is available [here](computational_analysis_plan.html).
+
+## Step 5: Create a Manuscript Documenting Your Process
+
+Our (brief) manuscript documenting the process is available [here](paper.html).
