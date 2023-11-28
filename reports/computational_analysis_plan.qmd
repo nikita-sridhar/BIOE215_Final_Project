@@ -6,7 +6,7 @@ editor: visual
 
 # Written Plan for Computational Analysis
 
-*Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
+*Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 *In this document, we describe our written plan for computational analysis needed to reproduce Figure 4 from Spatz et al., 2023.*
 
