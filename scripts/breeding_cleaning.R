@@ -93,7 +93,14 @@ chunkAllData <- bind_rows(chunkSA, chunkTandSA, tempchunk) %>%
   
 
 #now join the three chunks
-plotdataframe <- bind_rows(chunkAllData, chunkSA, chunkTandSA) #looks good, each EventID is in there twice (once for all data, once for its own thing)
+plotdataframe <- bind_rows(chunkAllData, chunkSA, chunkTandSA) %>% 
+  mutate(Common_Name = case_when(Family == "Procellariidae" ~ "Shearwaters",
+                            Family == "Phalacrocoracidae" ~ "Cormorants",
+                            Family == "Laridae" ~ "Gulls & Terns",
+                            Family == "Alcidae" ~ "Auks",
+                            Family == "Diomedeidae" ~ "Albatrosses"))
+
+#looks good, each EventID is in there twice (once for all data, once for its own thing)
 
 
 #anti-join to remove bad families
@@ -104,10 +111,23 @@ plotdataframe <- plotdataframe %>%
 
 
 
-#test plot
-social_attraction_data <- plotdataframe %>%
-  filter(plotpanel == "Social_Attraction")
 
-# Create a box plot by family
-ggplot(social_attraction_data, aes(x = Family, y = years_post)) +
-  geom_boxplot() 
+
+# plotting :(
+
+ggplot(plotdataframe, aes(x=years_post, y=Common_Name, col=Common_Name)) +
+  geom_boxplot(horizontal = TRUE) +
+  facet_wrap(~plotpanel, scales = "free") +
+  geom_jitter(alpha = 0.7, width = 0.9) +
+  ggtitle("Breeding outcome all data") +
+  theme_classic()
+
+
+
+
+
+
+
+
+
+
