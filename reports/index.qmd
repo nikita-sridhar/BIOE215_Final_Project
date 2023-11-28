@@ -35,3 +35,5 @@ Our written plan for computational analysis is available [here](computational_an
 ## Step 5: Create a Manuscript Documenting Your Process
 
 Our (brief) manuscript documenting the process is available [here](paper.html).
+
+**REFERENCES** are available here
