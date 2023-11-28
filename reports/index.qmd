@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-*Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
+*Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 ------------------------------------------------------------------------
 
