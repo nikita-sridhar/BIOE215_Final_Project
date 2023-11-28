@@ -22,7 +22,7 @@ The dataset consists of 851 rows and 73 columns including a references column. T
 
 ## Description of How Data Support Key Findings
 
-This paper describes how different taxa respond to different restoration actions, and the time frames at which they respond. There are two restoration actions implemented in various combinations:
+This paper describes how different taxa (column *Family*) respond to different restoration actions, and the time frames at which they respond. There are two restoration actions implemented in various combinations:
 
 1.  Social Attraction (column *SA_implementation*)
 
@@ -34,6 +34,6 @@ There are two outcomes they measured:
 
 2.  "breeding outcome", which is the time from when the restoration action was implemented to first breeding event.
 
-We will use the columns Family
+To determine the time from conservation action to the measured outcome, we will use columns SA_implementation and Trans_implementation as the years at which conservation actions took place and columns Visitation_Yr1 and Breeding_Yr1 as the years at which conservation outcomes occurred.
 
-SA_implementation, Trans_implementation to describe the taxa and restoration actions, and we will use the columns
+The key finding is that different taxa respond to different conservation actions at different time frames.
