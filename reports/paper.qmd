@@ -26,13 +26,9 @@ We are aiming to replicate a boxplot graphic that illustrates the timing of resp
 **METHODS:**\
 The authors created the Seabird Restoration Database, which was a composite of global active seabird restoration efforts.
 The goals were to 1) show global active seabird restoration, and 2) quantify the outcomes of restoration as a metric of seabird visitation and breeding.
-<<<<<<< HEAD
-They acquired information from 851 active restoration attempts focusing on138 seabird species.\
 
-=======
 They acquired information from 851 active restoration attempts, focusing on 138 seabird species.
-\
->>>>>>> 7c1791b71f8fa1bfbfb6ed9f269d9fac8172618b
+
 \
 The data is in a csv file, consists of 851 rows and 73 columns including a references column.
 The majority of the data are characters (i.e. scientific names such as Pterodroma hypoleuca) but also includes logical (i.e. TRUE, FALSE), numeric (i.e. latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e. year for data collection such as 2018 and 2021).
