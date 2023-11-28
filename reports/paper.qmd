@@ -27,6 +27,7 @@ They acquired information from 851 active restoration attempts focusing on138 se
 \
 The data is in a csv file, consists of 851 rows and 73 columns including a references column.
 The majority of the data are characters (i.e. scientific names such as Pterodroma hypoleuca) but also includes logical (i.e. TRUE, FALSE), numeric (i.e. latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e. year for data collection such as 2018 and 2021).
+Columns
 
 **3) A summary of the analysis methods**.
 How did you process the data?
