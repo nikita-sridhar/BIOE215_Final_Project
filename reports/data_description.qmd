@@ -1,12 +1,10 @@
 ---
-title: "data_description"
+title: "Data Description"
 format: html
 editor: visual
 ---
 
-# Data Description
-
-*Team Mo' Betta:*
+*Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 *In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.*
 
