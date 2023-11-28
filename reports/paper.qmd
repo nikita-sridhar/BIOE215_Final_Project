@@ -6,18 +6,21 @@ editor:
 
 # Step 5: Write a (brief) manuscript documenting your process
 
-1\) A brief (\~1 paragraph) introduction describing the paper and finding you're replicating.
+***1) A brief (\~1 paragraph) introduction describing the paper and finding you're replicating.***
 
 **INTRODUCTION**
 
 One of the key parts of the scientific method is being able to communicate findings.
 In order to do this effectively, one should also disclose how to reproduce these findings.
 Being able to communicate this step in the scientific process is an important skill to be an effective scientist.
-For the final project of BIOE 215: Data Science for Eco/Evo at the University of California at Santa Cruz (UCSC), authors Aspen Ellis, Frankie Gerraty, Nikita Sridhar, Elsie Carrillo, Maya McElfish (TEAM MO\' BETTA, all graduate students at UCSC were tasked by instructor, Max Czapanskiy to work collaboratively on using the cumulative knowledge gained over the course of the quarter to recreate any published scientific figure of their choice (see **Figure 1**).
+For the final project of BIOE 215: Data Science for Eco/Evo at the University of California at Santa Cruz (UCSC), authors Aspen Ellis, Frankie Gerraty, Nikita Sridhar, Elsie Carrillo, Maya McElfish (TEAM MO\' BETTA, all graduate students at UCSC were tasked by instructor, Max Czapanskiy, to work collaboratively on using the cumulative knowledge gained over the course of the quarter to recreate any published scientific figure of their choice (see **Figure 1**).
 Being able to put into practice the skills we acquired in order to recreate a figure will not only help advance our own skills but will also contribute to changing how science is conducted and communicated to the grander scientific community.
 
-2\) A summary of the data associated with the finding.
-This should include a bare minimum description of field/laboratory methods (common garden experiment? line transects?) as well as the data's representation (if it's a CSV file, what do the columns and rows represent?)
+The paper we selected was a composite of global seabird restoration projects and metrics for the success (in terms of site visitation & breeding success).
+For 851 restoration events, it was found that visitation occurred at 80% of the sites and breeding occurred at 76% of the sites.
+We are aiming to replicate a boxplot graphic that illustrates the timing of responses after the implementation restoration efforts, which contained two layers;  1) the time until first visitation after implementation and 2) the time until first breeding after implementation.
+
+***2) A summary of the data associated with the finding. This should include a bare minimum description of field/laboratory methods (common garden experiment? line transects?) as well as the data's representation (if it's a CSV file, what do the columns and rows represent?)***
 
 **METHODS:** \
 The authors created the Seabird Restoration Database, which was a composite of global active seabird restoration efforts.
@@ -29,14 +32,6 @@ The data is in a csv file, consists of 851 rows and 73 columns including a refer
 The majority of the data are characters (i.e. scientific names such as Pterodroma hypoleuca) but also includes logical (i.e. TRUE, FALSE), numeric (i.e. latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e. year for data collection such as 2018 and 2021).
 Columns
 
-**3) A summary of the analysis methods**.
-How did you process the data?
-If you fit a statistical model to the data, how did you do that?
-A description of your results.
-If you replicated a figure or table, add it here.
-A brief (\~2-3 paragraphs) discussion.
-Compare your results to the original paper.
-Did you find the same result or were they different?
-If the original paper's methods left a step out (e.g., a parameter value), how did you choose what to use?
+***3) A summary of the analysis methods. How did you process the data? If you fit a statistical model to the data, how did you do that? A description of your results. If you replicated a figure or table, add it here. A brief (\~2-3 paragraphs) discussion. Compare your results to the original paper. Did you find the same result or were they different? If the original paper's methods left a step out (e.g., a parameter value), how did you choose what to use?***
 
 In order to recreate Figure 4 from Spatz et al. 2023, we created a repository (titled BIOE25_Final_Project) from which to work following the methodology learned in BIOE 215 with a helpful folder and file structure (see **Figure 3**).
