@@ -1,0 +1,39 @@
+---
+title: "Team Mo' Betta Final Project"
+format: html
+editor: visual
+---
+
+*Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
+
+------------------------------------------------------------------------
+
+## Step 1: Identify a Mascot, Flag, and Theme Song
+
+The first step of any group project is identifying a team name, mascot and flag. Thus, Team Mo' Betta was formed.
+
+![Fig. 1. This is our team flag.](images/flag.jpg)
+
+[This is our theme song](https://www.youtube.com/watch?v=GEut_r-B0_w).
+
+## Step 2: Choose a study for replication
+
+We chose to replicate [Spatz et al., (2023), "Tracking the global application of conservation translocation and social attraction to reverse seabird declines"](https://www.pnas.org/doi/epdf/10.1073/pnas.2214574120). We plan to reproduce figure 4:
+
+![](images/figure_to_replicate.jpg)
+
+*Selection Methods: As a group, we first shared each other's tentative plots with our rationale for why we selected them. We were initially split between how complete and complex the data was and how helpful it was to the user's own research. In the end, it was decided that we would try to select the plot that had sufficient data available but be challenging enough to gain new data organization and plot recreation skills in R.*
+
+## Step 3: Identify and Describe Data
+
+The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is described [here](data_description.html).
+
+## Step 4: Create a Written Plan for Computational Analysis
+
+Our written plan for computational analysis is available [here](computational_analysis_plan.html).
+
+## Step 5: Create a Manuscript Documenting Your Process
+
+Our (brief) manuscript documenting the process is available [here](paper.html).
+
+**REFERENCES** are available here

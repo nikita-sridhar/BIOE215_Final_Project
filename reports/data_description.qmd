@@ -1,0 +1,21 @@
+---
+title: "Data Description"
+format: html
+editor: visual
+---
+
+*Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
+
+*In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.*
+
+------------------------------------------------------------------------
+
+## Description of Data and Availability
+
+The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and one R file with code for performing the modeling and statistical analyses. We decided that we would omit referring to the R file since it was not helpful for our figure recreation. The authors did not include information or code for data cleaning or creating any figures.
+
+The main dataset is available here: [csv file](https://zenodo.org/records/7764785)
+
+The data that is on the csv file consists of 851 rows and 73 columns including a references column. The majority of the data are characters (i.e. scientific names such as *Pterodroma hypoleuca*) but also includes logical (i.e. TRUE, FALSE), numeric (i.e. latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e. year for data collection such as 2018 and 2021).
+
+Metadata is available via the "seabird restoration database": [descriptions of column names](https://www.seabirddatabase.org/uploads/9/3/3/2/93324882/srdglossary_fulldataset_aug2022.pdf)
