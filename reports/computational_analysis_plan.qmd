@@ -1,10 +1,8 @@
 ---
-title: "computational_analysis_plan"
+title: "Written Plan for Computational Analysis"
 format: html
 editor: visual
 ---
-
-# Written Plan for Computational Analysis
 
 *Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 

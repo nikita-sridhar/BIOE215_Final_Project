@@ -10,7 +10,7 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-## **Description of Data and Availability**
+## Description of Data and Availability
 
 The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and one R file with code for performing the modeling and statistical analyses. We decided that we would omit referring to the R file since it was not helpful for our figure recreation. The authors did not include information or code for data cleaning or creating any figures.
 
