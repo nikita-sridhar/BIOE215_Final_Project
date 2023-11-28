@@ -1,18 +1,16 @@
 ---
-title: "data_description"
+title: "Data Description"
 format: html
 editor: visual
 ---
 
-# Data Description
-
-*Team Mo' Betta:*
+*Team Mo' Betta: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 *In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.*
 
 ------------------------------------------------------------------------
 
-## **Description of Data and Availability**
+## Description of Data and Availability
 
 The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and one R file with code for performing the modeling and statistical analyses. We decided that we would omit referring to the R file since it was not helpful for our figure recreation. The authors did not include information or code for data cleaning or creating any figures.
 
