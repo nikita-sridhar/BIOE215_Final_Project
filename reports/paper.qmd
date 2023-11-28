@@ -26,7 +26,6 @@ We are aiming to replicate a boxplot graphic that illustrates the timing of resp
 **METHODS:**\
 The authors created the Seabird Restoration Database, which was a composite of global active seabird restoration efforts.
 The goals were to 1) show global active seabird restoration, and 2) quantify the outcomes of restoration as a metric of seabird visitation and breeding.
-
 They acquired information from 851 active restoration attempts, focusing on 138 seabird species.
 
 \
