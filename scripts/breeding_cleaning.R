@@ -6,13 +6,13 @@ all_data <- read_csv(here::here("./data/raw_data.csv"))
 
 #breeding, removing families with less than 5 responses
 breeding_families <- all_data %>% 
-  select(EventID, Family, Order, Social_Attraction, SA_Implementation, 
+  select(EventID, Family, Order, SA_Implementation, 
          Trans_Implementation,Social_Attraction_Start,Translocation, 
          Translocation_Start, Breeding_PreOpCat,Breeding_PostOpCat, 
-         Visitation_Yr1_SinceOperation,
-         Breeding_Yr1, Data_Quality, Visitation_PreOperation, Visitation_Operation, method) %>%
+         Breeding_Yr1, Data_Quality, AllStartYr, method) %>%
   filter(Breeding_PostOpCat != "Unknown", Breeding_PostOpCat != 0) %>% 
   filter(Breeding_PreOpCat == 0) %>% 
+  filter(AllStartYr < 2018) %>% 
   filter(Data_Quality == 1) 
 
 badfamilies <- breeding_families %>% 
