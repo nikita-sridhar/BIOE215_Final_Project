@@ -10,12 +10,30 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-## Description of Data and Availability
+## Description of Data and Code Availability
 
-The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and one R file with code for performing the modeling and statistical analyses. We decided that we would omit referring to the R file since it was not helpful for our figure recreation. The authors did not include information or code for data cleaning or creating any figures.
+The authors used Zenodo to upload their data, which includes one csv file with raw data (before cleaning) and one .R file with code for performing the modeling and statistical analyses. The authors did not include information or code for data cleaning or creating any figures.
 
 The main dataset is available here: [csv file](https://zenodo.org/records/7764785)
 
-The data that is on the csv file consists of 851 rows and 73 columns including a references column. The majority of the data are characters (i.e. scientific names such as *Pterodroma hypoleuca*) but also includes logical (i.e. TRUE, FALSE), numeric (i.e. latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e. year for data collection such as 2018 and 2021).
-
 Metadata is available via the "seabird restoration database": [descriptions of column names](https://www.seabirddatabase.org/uploads/9/3/3/2/93324882/srdglossary_fulldataset_aug2022.pdf)
+
+The dataset consists of 851 rows and 73 columns including a references column. The majority of the data are characters (i.e., scientific names such as *Pterodroma hypoleuca*) but also includes logical (i.e., TRUE, FALSE), numeric (i.e., latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data types (i.e., year for data collection such as 2018 and 2021).
+
+## Description of How Data Support Key Findings
+
+This paper describes how different taxa (column *Family*) respond to different restoration actions, and the time frames at which they respond. There are two restoration actions implemented in various combinations:
+
+1.  Social Attraction (column *SA_implementation*)
+
+2.  Translocation (column *Trans_implementation*)
+
+There are two outcomes they measured:
+
+1.  "visiting outcome", which is the time from when the restoration action was implemented to first visitation
+
+2.  "breeding outcome", which is the time from when the restoration action was implemented to first breeding event.
+
+To determine the time from conservation action to the measured outcome, we will use columns SA_implementation and Trans_implementation as the years at which conservation actions took place and columns Visitation_Yr1 and Breeding_Yr1 as the years at which conservation outcomes occurred.
+
+The key finding is that different taxa respond to different conservation actions at different time frames.

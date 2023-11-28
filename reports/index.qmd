@@ -14,7 +14,7 @@ The first step of any group project is identifying a team name, mascot and flag.
 
 ![Fig. 1. This is our team flag.](images/flag.jpg)
 
-[This is our theme song](https://www.youtube.com/watch?v=GEut_r-B0_w).
+**This is our theme song:** {{< video https://www.youtube.com/embed/GEut_r-B0_w >}}
 
 ## Step 2: Choose a study for replication
 
