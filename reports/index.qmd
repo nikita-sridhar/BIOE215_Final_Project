@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-*Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
+*Team Members: [Aspen Ellis](https://github.com/boriellis), [Elsie Carrillo](https://github.com/misselsie10), [Frankie Gerraty](https://github.com/fgerraty), [Maya McElfish](https://github.com/Blinkosaur), [Niki Sridhar](https://github.com/nikita-sridhar)*
 
 ------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ The first step of any group project is identifying a team name, mascot and flag.
 
 ![Fig. 1. This is our team flag.](images/flag.jpg)
 
-[This is our theme song](https://www.youtube.com/watch?v=GEut_r-B0_w).
+**This is our theme song:** {{< video https://www.youtube.com/embed/GEut_r-B0_w >}}
 
 ## Step 2: Choose a study for replication
 
@@ -31,3 +31,9 @@ The data and metadata needed to reproduce Figure 4 from Spatz et al., 2023, is d
 ## Step 4: Create a Written Plan for Computational Analysis
 
 Our written plan for computational analysis is available [here](computational_analysis_plan.html).
+
+## Step 5: Create a Manuscript Documenting Your Process
+
+Our (brief) manuscript documenting the process is available [here](paper.html).
+
+**REFERENCES** are available here

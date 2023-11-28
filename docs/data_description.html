@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>data_description</title>
+<title>Data Description</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">data_description</h1>
+<h1 class="title">Data Description</h1>
 </div>
 
 
@@ -60,18 +60,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="data-description" class="level1">
-<h1>Data Description</h1>
-<p><em>Team Mo’ Betta:</em></p>
+<p><em>Team Mo’ Betta: <a href="https://github.com/boriellis">Aspen Ellis</a>, <a href="https://github.com/misselsie10">Elsie Carrillo</a>, <a href="https://github.com/fgerraty">Frankie Gerraty</a>, <a href="https://github.com/Blinkosaur">Maya McElfish</a>, <a href="https://github.com/nikita-sridhar">Niki Sridhar</a></em></p>
 <p><em>In this document, we describe the data and metadata needed to reproduce Figure 4 from Spatz et al., 2023.</em></p>
 <hr>
-<section id="description-of-data-and-availability" class="level2">
-<h2 class="anchored" data-anchor-id="description-of-data-and-availability"><strong>Description of Data and Availability</strong></h2>
-<p>The authors used Zenodo to upload their data instead of Github. On Zenodo, they uploaded one csv file with the raw data (before cleaning) and one R file with code for performing the modeling and statistical analyses. We decided that we would omit referring to the R file since it was not helpful for our figure recreation. The authors did not include information or code for data cleaning or creating any figures.</p>
+<section id="description-of-data-and-code-availability" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-data-and-code-availability">Description of Data and Code Availability</h2>
+<p>The authors used Zenodo to upload their data, which includes one csv file with raw data (before cleaning) and one .R file with code for performing the modeling and statistical analyses. The authors did not include information or code for data cleaning or creating any figures.</p>
 <p>The main dataset is available here: <a href="https://zenodo.org/records/7764785">csv file</a></p>
-<p>The data that is on the csv file consists of 851 rows and 73 columns including a references column. The majority of the data are characters (i.e.&nbsp;scientific names such as Pterodroma hypoleuca) but also includes logical (i.e.&nbsp;TRUE, FALSE), numeric (i.e.&nbsp;latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data (i.e.&nbsp;year for data collection such as 2018 and 2021).</p>
 <p>Metadata is available via the “seabird restoration database”: <a href="https://www.seabirddatabase.org/uploads/9/3/3/2/93324882/srdglossary_fulldataset_aug2022.pdf">descriptions of column names</a></p>
+<p>The dataset consists of 851 rows and 73 columns including a references column. The majority of the data are characters (i.e., scientific names such as <em>Pterodroma hypoleuca</em>) but also includes logical (i.e., TRUE, FALSE), numeric (i.e., latitude and longitude values such as 21.694872 and 157.954432, respectively), and integer data types (i.e., year for data collection such as 2018 and 2021).</p>
 </section>
+<section id="description-of-how-data-support-key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-how-data-support-key-findings">Description of How Data Support Key Findings</h2>
+<p>This paper describes how different taxa (column <em>Family</em>) respond to different restoration actions, and the time frames at which they respond. There are two restoration actions implemented in various combinations:</p>
+<ol type="1">
+<li><p>Social Attraction (column <em>SA_implementation</em>)</p></li>
+<li><p>Translocation (column <em>Trans_implementation</em>)</p></li>
+</ol>
+<p>There are two outcomes they measured:</p>
+<ol type="1">
+<li><p>“visiting outcome”, which is the time from when the restoration action was implemented to first visitation</p></li>
+<li><p>“breeding outcome”, which is the time from when the restoration action was implemented to first breeding event.</p></li>
+</ol>
+<p>To determine the time from conservation action to the measured outcome, we will use columns SA_implementation and Trans_implementation as the years at which conservation actions took place and columns Visitation_Yr1 and Breeding_Yr1 as the years at which conservation outcomes occurred.</p>
+<p>The key finding is that different taxa respond to different conservation actions at different time frames.</p>
 </section>
 
 </main>
