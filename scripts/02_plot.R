@@ -10,7 +10,8 @@ visitation_plot <- ggplot(all_data_clean, aes(x=yrs_since_start, y=Family, col=F
   ggtitle("Visiting Outcome") +
   theme_classic()+
   labs (y = "", x = "")+
-  theme(legend.position = "none") 
+  theme(legend.position = "none") +
+  theme(strip.background = element_blank())
 
 visitation_plot
 # breeding plot
@@ -22,7 +23,8 @@ breeding_plot <- ggplot(plotdataframe, aes(x=years_post, y=Common_Name, col=Comm
   ggtitle("Breeding Outcome") +
   theme_classic()+
   labs(y="", x="Years after implementation")+
-#  theme(strip.text = element_blank())+
-  theme(legend.position = "none")
+  theme(strip.text = element_blank())+
+  theme(legend.position = "none")+
+  theme(strip.background = element_blank())
 
-plot_grid(visitation_plot, breeding_plot, ncol = 1, labels = c("A", "B"))
+output_plot <- plot_grid(visitation_plot, breeding_plot, ncol = 1, labels = c("A", "B"))
