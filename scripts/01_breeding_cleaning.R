@@ -113,16 +113,6 @@ plotdataframe <- plotdataframe %>%
 
 
 
-# plotting :(
-
-ggplot(plotdataframe, aes(x=years_post, y=Common_Name, col=Common_Name)) +
-  geom_boxplot(horizontal = TRUE) +
-  facet_wrap(~plotpanel, scales = "free") +
-  geom_jitter(alpha = 0.7, width = 0.9) +
-  ggtitle("Breeding outcome all data") +
-  theme_classic()
-
-
 
 
 
